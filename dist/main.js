@@ -26,7 +26,7 @@
     (e => {
         let t = [], n = [];
         if (e) {
-            n = [].map(t => ({width: (e = t.someKey, "a" === e ? "aaa" : "ccc")})), t.map(e => e);
+            n = [{someKey: 1}].map(t => ({width: (e = t.someKey, "a" === e ? "aaa" : "ccc")})), t.map(e => e);
             const e = n.map(e => e);
             e > -1 && console.log(e)
         }

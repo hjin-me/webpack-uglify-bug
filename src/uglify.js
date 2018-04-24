@@ -11,7 +11,7 @@ const xxx = (boolA) => {
     let varA = [];
     let varB = [];
     if (boolA) {
-        varB = [].map(row => ({
+        varB = [{someKey: 1}].map(row => ({
             width: fn(row.someKey)
         }));
         const maxCount = varA.map(lastValue => lastValue);
