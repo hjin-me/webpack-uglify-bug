@@ -31,7 +31,6 @@ $RECYCLE.BIN/
 
 node_modules/
 .tmp
-dist
 npm-debug.log
 yarn-error.log
 tmp/
