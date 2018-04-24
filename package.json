@@ -1,0 +1,14 @@
+{
+  "name": "webpack-uglify-bug",
+  "version": "1.0.0",
+  "repository": "",
+  "author": "hjin-me",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  }
+}
